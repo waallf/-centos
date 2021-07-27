@@ -34,5 +34,5 @@ https://pan.baidu.com/s/1gVJz-FzA5jDKEMR-rUCZsw
 ### 问题4：配置时间校正  
 1. ntpdate 服务器地址  
 2. 设置每隔一小时自动执行    
-   vi /etv/crontab  
-   * */1 * * * root ntpdate 服务器地址  
+   (1). vi /etv/crontab  
+   (2). * */1 * * * root ntpdate 服务器地址  
